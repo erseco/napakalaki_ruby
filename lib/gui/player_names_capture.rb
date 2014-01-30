@@ -1,8 +1,9 @@
+# encoding: UTF-8
 # 
 # Ernesto Serrano <erseco@correo.ugr.es>
 #
-#  © Copyleft - All Wrongs Reserved
-
+#  2014 © Copyleft - All Wrongs Reserved
+#
   
   Shoes.app :width => 420, :height => 420, :title => "Napakalaki" do
 
@@ -21,9 +22,12 @@
       stack :margin => 10 do
         button "Jugar" do
           
-          @names = [@player1, @player2, @player3]
-       
-#          Shoes.p [@name.text, @address.text, @phone.text]
+          @names = [@player1.text, @player2.text, @player3.text]
+
+          alert @@names
+        
+          close
+
         end
       end
 
