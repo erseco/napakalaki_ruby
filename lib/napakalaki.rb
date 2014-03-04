@@ -1,9 +1,11 @@
 # encoding: UTF-8
 #
-#   © Copyleft - All Wrongs Reserved
-# 
+#   Programación y diseño orientado a objetos
+#   Grado en Ingeniería Informática
+#
+#   2013 © Copyleft - All Wrongs Reserved
+#
 #  Ernesto Serrano <erseco@correo.ugr.es>
-#  Noureddine El Alaoui <nourdine@correo.ugr.es>
 #
 
 require_relative "card_dealer"
@@ -236,6 +238,44 @@ module Napakalaki
       return result == WINANDWINGAME
     end
 
+    #EXAMEN
+    def make_present(treasure)
+       
+        #Recorremos los jugadores
+        @players.each do |pl|
+        
+            #Nos saltamso el current player
+            if pl.name != @current_player.name then
+            
+                #Si no tiene nada, lo asignamos
+                if player_receiver == nil then
+                
+                    player_receiver = pl;
+                
+                 #Si tiene menor nivel que el asignado previamente, lo asignamos
+                 elsif pl.level < player_receiver.level then
+               
+                    player_receiver = pl;                
+            
+                end
+            
+            end
+            
+        end
+        
+        #Comprobamos que hayamos conseguido un player
+        if player_receiver == nil then
+        
+            #Le damos el regalo
+           puts player_receiver.receive_present(treasure);
+        
+        end
+        
+    end
+    #FIN EXAMEN
+    
+    
+    
   end
   
 end

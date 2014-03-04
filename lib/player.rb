@@ -1,9 +1,11 @@
 # encoding: UTF-8
 #
-#   © Copyleft - All Wrongs Reserved
-# 
+#   Programación y diseño orientado a objetos
+#   Grado en Ingeniería Informática
+#
+#   2013 © Copyleft - All Wrongs Reserved
+#
 #  Ernesto Serrano <erseco@correo.ugr.es>
-#  Noureddine El Alaoui <nourdine@correo.ugr.es>
 #
 
 require_relative 'treasure'
@@ -509,6 +511,19 @@ module Napakalaki
       " Nombre: #{@name} Nivel: #{combat_level}"
     end
 
+    #EXAMEN
+    def receive_present(treasure)
+      
+        #Agregamos el tesoro
+        @hidden_treasures << treasure
+        
+        #Damos las gracias
+        @name + " dice: Muchas Gracias!!"
+
+    end
+    #FIN EXAMEN
+    
+    
   end
   
 end

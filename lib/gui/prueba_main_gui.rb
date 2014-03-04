@@ -1,8 +1,11 @@
 # encoding: UTF-8
 # 
-# Ernesto Serrano <erseco@correo.ugr.es>
+#   Programación y diseño orientado a objetos
+#   Grado en Ingeniería Informática
 #
-#  2014 © Copyleft - All Wrongs Reserved
+#   2013 © Copyleft - All Wrongs Reserved
+#
+#  Ernesto Serrano <erseco@correo.ugr.es>
 #
 
 module Napakalaki 
