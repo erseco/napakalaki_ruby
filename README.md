@@ -1,4 +1,6 @@
-== Napakalaki
+ 
+napakalaki_ruby
+===============
 
 La versión GUI está inacabada, solo están hechos los formularios del dado, de captura de nombre y un previo del napakalaki_view por falta de tiempo. 
 
