@@ -1,6 +1,10 @@
  
-napakalaki_ruby
+Napakalaki ruby
 ===============
+
+Implementacion en Ruby del juego Napkalaki (version de Munchkin) para la asignatura de Programación y Diseño Orientado a Objetos de la ETSIIT (UGR).
+
+El juego funciona perfectamente en el terminal, se ha intentado hacer un interfaz gráfico (GUI) pero no se ha terminado.
 
 La versión GUI está inacabada, solo están hechos los formularios del dado, de captura de nombre y un previo del napakalaki_view por falta de tiempo. 
 
