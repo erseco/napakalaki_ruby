@@ -12,6 +12,6 @@ Para poder verlos hay que tener el runtime de shoes, el cual al abrirlo te pide 
 
 Puedes conseguir shoes para Linux/Windows/MacOSX desde aqui: 
 
-http://shoesrb.com/downloads.html
+http://shoesrb.com/
 
 Hay una prueba del main para el gui, pero no está acabada
