@@ -15,3 +15,6 @@ Puedes conseguir shoes para Linux/Windows/MacOSX desde aqui:
 http://shoesrb.com/
 
 Hay una prueba del main para el gui, pero no está acabada
+
+---
+Si quieres contactar conmigo: http://www.ernesto.es
