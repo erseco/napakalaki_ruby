@@ -418,7 +418,7 @@ module Napakalaki
     #ocultos y false en caso contrario.
     def valid_state
     
-      return @pending_badStuff != nil && @hidden_treasures.lenght <= 4
+      return @pending_badStuff != nil && @hidden_treasures.length <= 4
     
     end
     
